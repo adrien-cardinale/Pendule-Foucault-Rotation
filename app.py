@@ -23,3 +23,4 @@ for file in os.listdir(path):
                 with gzip.open(path_file_comp, 'wb') as f_out:
                     shutil.copyfileobj(f_in, f_out)
             shutil.move(path_file_comp, path_dest)
+            os.remove(path_file)
