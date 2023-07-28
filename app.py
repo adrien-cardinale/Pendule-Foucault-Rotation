@@ -5,9 +5,9 @@ from datetime import datetime, timedelta
 
 path = "/home/pendule-foucault/data"
 
-minOldTime = 1
+minOldTime = 5
 
-path_dest = "/home/pendule-foucault/data2"
+path_dest = "/home/pendule-foucault/archive"
 
 limitDate = datetime.now() - timedelta(days=minOldTime)
 
